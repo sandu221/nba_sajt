@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="sr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="Slike/nba-mali-logo.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amarna:ital,wght@0,100..700;1,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>O autoru</title>
+    <meta name="description" content="O Autoru: Dušan Stankvić" />
+    <meta name="robots" content="index, follow" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <a class="logo" href="index.html">
+          <img src="Slike/nba-logo.png" alt="NBA logo" />
+        </a>
+
+        <ul class="nav-links">
+          <li><a href="index.html">Početna</a></li>
+          <li><a href="timovi.html">Timovi</a></li>
+          <li><a href="pobednici.html">Pobednici</a></li>
+          <li><a href="galerija.html">Galerija</a></li>
+          <li><a href="autor.html" class="active">Autor</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="autor-main">
+      <section class="autor-card">
+        <img src="Slike/autor.png" alt="Fotografija autora sajta" class="autor-slika" />
+
+        <h1 class="autor-ime">Dušan Stankvić</h1>
+
+        <p class="autor-opis">
+          Student sam informacionih tehnologija sa interesovanjem za web razvoj. Ovaj sajt je izrađen kao studentski
+          projekat sa ciljem prikaza NBA lige, njenih timova, pobednika i najznačajnijih događaja. Fokus projekta je na
+          čistom HTML-u i CSS-u bez korišćenja gotovih biblioteka.
+        </p>
+
+        <p class="autor-index">Broj indeksa: <strong>IT 123/2023</strong></p>
+      </section>
+
+      <section class="kontakt-sekcija">
+        <h2>Kontaktiraj autora</h2>
+        <form class="kontakt-forma">
+          <input type="text" placeholder="Vaše ime" required />
+          <input type="email" placeholder="Vaš email" required />
+          <textarea placeholder="Poruka" rows="5" required></textarea>
+          <button type="submit" class="btn">Pošalji poruku</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; Dušan Stanković</p>
+    </footer>
+  </body>
+</html>
